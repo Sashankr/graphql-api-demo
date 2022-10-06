@@ -4,14 +4,14 @@ const UserList = [
     name: "John",
     username: "john",
     age: 20,
-    nationality: "Canada",
+    nationality: "CANADA",
   },
   {
     id: 2,
     name: "Pedro",
     username: "pedro",
     age: 20,
-    nationality: "Brazil",
+    nationality: "BRAZIL",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const UserList = [
     name: "Joe",
     username: "joe",
     age: 25,
-    nationality: "USA",
+    nationality: "INDIA",
   },
 ];
 
