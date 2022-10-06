@@ -54,6 +54,30 @@ const UserList = [
   },
 ];
 
+const MovieList = [
+  {
+    id: 1,
+    name: "Interstellar",
+    genre: "Sci-Fi",
+  },
+  {
+    id: 2,
+    name: "Once Upon A Time In Hollywood",
+    genre: "Action",
+  },
+  {
+    id: 3,
+    name: "Jujitsu Kaisen 0",
+    genre: "Anime",
+  },
+  {
+    id: 4,
+    name: "RRR",
+    genre: "Action",
+  },
+];
+
 module.exports = {
   UserList,
+  MovieList,
 };
