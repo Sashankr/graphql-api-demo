@@ -26,6 +26,15 @@ const resolvers = {
       return _.filter(MovieList, (movie) => movie.genre === "Action");
     },
   },
+  Mutation: {
+    createUser: (parent, args) => {
+      const user = args.input;
+      const lastUserId = UserList[UserList.length - 1].id;
+      user.id = lastUserId + 1;
+      UserList.push(user);
+      return user;
+    },
+  },
 };
 
 module.exports = { resolvers };
